@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
-import { ComponenteUmComponent } from './components/componente-um/componente-um.component';
+import { BarraSuperiorComponent } from './components/barra-superior/barra-superior.component';
 import { ComponenteDoisComponent } from './components/componente-dois/componente-dois.component';
 
 @Component({
@@ -11,7 +11,7 @@ import { ComponenteDoisComponent } from './components/componente-dois/componente
     CommonModule, 
     RouterOutlet,
     // Meus components:
-    ComponenteUmComponent,
+    BarraSuperiorComponent,
     ComponenteDoisComponent
   ],
   templateUrl: './app.component.html',

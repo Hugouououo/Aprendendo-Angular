@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+// Variáveis globais mt fodas
+$Fundo: #161e2a; 
+$Principal: #729dde;
+$Destaque: #354967;
+
+//index.html
+.index-fundo{
+    background-color: $Fundo;
+}

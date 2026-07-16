@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ComponenteUmComponent } from './componente-um.component';
+import { BarraSuperiorComponent } from './barra-superior.component';
 
-describe('ComponenteUmComponent', () => {
-  let component: ComponenteUmComponent;
-  let fixture: ComponentFixture<ComponenteUmComponent>;
+describe('BarraSuperiorComponent', () => {
+  let component: BarraSuperiorComponent;
+  let fixture: ComponentFixture<BarraSuperiorComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ComponenteUmComponent]
+      imports: [BarraSuperiorComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(ComponenteUmComponent);
+    fixture = TestBed.createComponent(BarraSuperiorComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
