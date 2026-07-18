@@ -9,8 +9,12 @@ main{
 
     .cadastro{
         background-color: global.$Principal;
+        display: flex;
+        flex-direction: column;
+        padding: 1% 5% 1% 5%;
     }
     .lista{
         background-color: global.$Principal;
+        padding: 1% 5% 1% 5%;
     }
 }
