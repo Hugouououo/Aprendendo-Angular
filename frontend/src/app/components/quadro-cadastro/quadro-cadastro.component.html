@@ -4,13 +4,13 @@
         <h2>Cadastrar Usuário</h2>
     
         <label for="nome">Nome:</label>
-        <input type="text" [(ngModel)]="nome" name="nome" id="nome">
+        <input type="text" [(ngModel)]="nome" name="nome" id="nome" placeholder="Digite o nome aqui">
     
         <label for="email">E-mail:</label>
-        <input type="email" [(ngModel)]="email" name="email" id="email">
+        <input type="email" [(ngModel)]="email" name="email" id="email" placeholder="exemplo@exemplo.com">
     
-        <input type="submit"  (click)="gravar()" value="Gravar" id="gravar" style="background-color: rgb(86, 255, 86);">
-        <input type="submit" (click)="cancelar()" value="Cancelar" id="Cancelar" style="background-color: rgb(255, 83, 83);">
+        <input type="submit"  (click)="gravar()" value="Gravar" id="gravar">
+        <input type="submit" (click)="cancelar()" value="Cancelar" id="cancelar">
     
     </section>
     <section class="lista">

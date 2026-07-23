@@ -12,6 +12,17 @@ main{
         display: flex;
         flex-direction: column;
         padding: 1% 5% 1% 5%;
+
+        #gravar{
+            background-color: greenyellow;
+            cursor: pointer;
+        }
+        #cancelar{
+            background-color: orangered;
+            cursor: pointer;
+        }
+
+        
     }
     .lista{
         background-color: global.$Principal;
